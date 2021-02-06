@@ -1,0 +1,17 @@
+{
+  "name": "daveflix",
+  "version": "1.0",
+  "description": "Movie thing",
+  "manifest_version": 2,
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  }
+}
